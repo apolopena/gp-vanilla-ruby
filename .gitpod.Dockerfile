@@ -2,7 +2,7 @@ FROM gitpod/workspace-postgres
 USER gitpod
 
 # Docker build does not rebuild an image when a base image is changed, increase this counter to trigger it
-ENV TRIGGER_REBUILD 1
+ENV TRIGGER_REBUILD 2
 
 # Install the Ruby version specified in '.ruby-version'
 COPY --chown=gitpod:gitpod .ruby-version /tmp
