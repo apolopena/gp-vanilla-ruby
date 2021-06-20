@@ -9,6 +9,8 @@ gem 'rexml'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 # react_on_rails
 gem "react_on_rails", "= 12.2"
+# ruby node bridge (required)
+gem 'mini_racer', platforms: :ruby
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
