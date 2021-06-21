@@ -23,7 +23,7 @@ This starter project is geared toward setting up new project with rails and reac
 7. Create the project database. Run:
     - `rake db:create`
 
-## Keep yourr `config/master.key` safe
+## Keep your `config/master.key` safe
 To access rails custom [encoded credentials](https://guides.rubyonrails.org/security.html#custom-credentials), keep the key found in `config/master.key` in a safe place such as a password encryption system since this file is in the `.gitignore` and will be lost forever whenever a new workspace is created. Without the original `master.key` you will loose any secret keys that you have encrypted via the `bin/rails credentials:edit` command in `config/credentials.yml.enc`
 
 ## Run the development server
